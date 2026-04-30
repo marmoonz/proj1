@@ -4,7 +4,7 @@ import plotly.express as px
 
 st.set_page_config(layout="wide")
 
-st.title("⌂ Housing Affordability in Syracuse Post-Grade")
+st.title("⌂ Housing Affordability in Syracuse")
 
 df = pd.read_csv("data/final.csv")
 

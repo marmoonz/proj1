@@ -1,6 +1,7 @@
 import pandas as pd
 
-print("🔥 ETL STARTED")
+print("ETL STARTED")
+print("RUNNING UPDATED ETL FILE")
 
 def build():
 
@@ -35,6 +36,6 @@ def build():
 
     df.to_csv("data/final.csv", index=False)
 
-    print("✅ DONE")
+    print("DONE")
 
 build()
